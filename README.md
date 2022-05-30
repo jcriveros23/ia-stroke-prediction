@@ -72,5 +72,5 @@ evaluacion tanto para el MCC como el F1 mucho menor que sin hacer la reduccion.
 como para considerarlo un conjunto balanceado, si no, podemos aplicar la funcion SMOTE() para balancear 
 los datos de salida y realizar un mejor modelo.
 ```
-## Link del video
+### Link del video
 https://youtu.be/0JfcokUWoi8
