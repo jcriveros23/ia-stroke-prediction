@@ -48,8 +48,8 @@ En cada metodo, se hizo un grid search en primera instancia para optimizar los h
 |-----------------------------|
 |  METODO  |   MCC   |   F1   |
 |   KNN    |  0.221  | 0.668  |
-|   ANN    |  0.589  | 0.808  |
-|   RF     |  0.869  | 0.927  |
+|   ANN    |  0.196  | 0.661  |
+|   RF     |  0.362  | 0.671  |
 |-----------------------------|
    Sin reduccion dimensional
 |-----------------------------|
@@ -63,5 +63,6 @@ En cada metodo, se hizo un grid search en primera instancia para optimizar los h
 ### Conclusiones
 
 ```
-- Se logro observar que con el metodo de random forest se logro obtener los mejores resultados tanto para el MCC como el F1
+- Se logro observar que con el metodo de random forest se logro obtener los mejores resultados tanto para el MCC como el F1, tambien se logro el mismo resultado realizando la reduccion dimensional y sin hacerlo.
+- Teniendo en cuenta los resultados obtenidos con reduccion y sin reduccion dimensional (PCA), se puede concluir que no vale la pena realizar esta reduccion debido a que los 
 ```
