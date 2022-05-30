@@ -1,7 +1,6 @@
 # Proyecto final IA - Stroke Prediction 
 
-Juan Camilo Riveros Pinzón
-Darwin Felipe Castro
+Integrantes: Juan Camilo Riveros Pinzón y Darwin Felipe Castro
 
 ## Introduccion
 
