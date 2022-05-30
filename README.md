@@ -64,5 +64,6 @@ En cada metodo, se hizo un grid search en primera instancia para optimizar los h
 
 ```
 - Se logro observar que con el metodo de random forest se logro obtener los mejores resultados tanto para el MCC como el F1, tambien se logro el mismo resultado realizando la reduccion dimensional y sin hacerlo.
-- Teniendo en cuenta los resultados obtenidos con reduccion y sin reduccion dimensional (PCA), se puede concluir que no vale la pena realizar esta reduccion debido a que los 
+- Teniendo en cuenta los resultados obtenidos con reduccion y sin reduccion dimensional (PCA), se puede concluir que no vale la pena realizar esta reduccion debido a que obtuvo para los 3 metodos un puntaje de evaluacion tanto para el MCC como el F1 mucho menor que sin hacer la reduccion.
+- Es importante revisar si nuestro conjunto de datos tiene suficientes etiquetas de salida de cada clase, como para considerarlo un conjunto balanceado, si no, podemos aplicar la funcion SMOTE() para balancear los datos de salida y realizar un mejor modelo.
 ```
