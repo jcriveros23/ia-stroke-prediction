@@ -44,20 +44,24 @@ En cada metodo, se hizo un grid search en primera instancia para optimizar los h
 
 ## Resultados
 ```
+   Con reduccion dimensional              
 |-----------------------------|
 |  METODO  |   MCC   |   F1   |
-|   KNN    |  0.539  | 0.774  |
-|   SVM    |  0.041  | 0.458  |
+|   KNN    |  0.221  | 0.668  |
 |   ANN    |  0.589  | 0.808  |
 |   RF     |  0.869  | 0.927  |
-|   DT     |  0.095  | 0.671  |
+|-----------------------------|
+   Sin reduccion dimensional
+|-----------------------------|
+|  METODO  |   MCC   |   F1   |
+|   KNN    |  0.493  | 0.623  |
+|   ANN    |  0.722  | 0.848  |
+|   RF     |  0.872  | 0.928  |
 |-----------------------------|
 
 ```
 ### Conclusiones
 
-Explain what these tests test and why
-
 ```
-Give an example
+- Se logro observar que con el metodo de random forest se logro obtener los mejores resultados tanto para el MCC como el F1
 ```
